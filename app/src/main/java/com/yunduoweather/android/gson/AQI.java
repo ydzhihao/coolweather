@@ -1,4 +1,4 @@
-package com.coolweather.android.gson;
+package com.yunduoweather.android.gson;
 
 public class AQI {
 

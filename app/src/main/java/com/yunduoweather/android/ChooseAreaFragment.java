@@ -1,9 +1,7 @@
-package com.coolweather.android;
+package com.yunduoweather.android;
 
 import android.app.ProgressDialog;
-import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -16,11 +14,11 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.coolweather.android.db.City;
-import com.coolweather.android.db.County;
-import com.coolweather.android.db.Province;
-import com.coolweather.android.util.HttpUtil;
-import com.coolweather.android.util.Utility;
+import com.yunduoweather.android.db.City;
+import com.yunduoweather.android.db.County;
+import com.yunduoweather.android.db.Province;
+import com.yunduoweather.android.util.HttpUtil;
+import com.yunduoweather.android.util.Utility;
 
 import org.litepal.crud.DataSupport;
 
